@@ -136,3 +136,16 @@ main #contatos {
   padding-top: 100px;
   height: 100vh;
 }
+
+@media only screen and (max-width: 768px) {
+  main #sobre .info {
+    height: 100%;
+    width: 100vh;
+    text-align: center;
+  }
+  main #sobre .imagemMinha {
+    width: 100vh;
+    text-align: center;
+    display: none;
+  }
+}
