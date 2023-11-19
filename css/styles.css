@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(45deg, white, black);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+nav,
+main,
+footer {
+}
+
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(90deg, #242424, black);
+  position: fixed;
+  width: 100vw;
+}
+
+.imgProfile {
+  flex: 40%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.imgProfile h1 {
+  text-align: center;
+  justify-content: center;
+  margin-left: 10px;
+  color: white;
+  margin-top: 28px;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.imgProfile img {
+  height: 80px;
+  border-radius: 100px;
+}
+
+.menu {
+  flex: 60%;
+  text-align: right;
+  padding: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  padding: 20px 16px;
+  color: white;
+}
+
+.menu a:hover {
+  border-top: 4px solid white;
+}
+
+#cont:hover {
+  background: gray;
+  border-radius: 5%;
+  border-top: none;
+}
+
+.menu a img {
+  height: 30px;
+  background-color: white;
+}
+
+main {
+  border-top: 1px solid white;
+}
+
+main #sobre {
+  padding-top: 100px;
+  height: 100vh;
+  display: flex;
+}
+
+main #sobre .info {
+  height: 100%;
+  width: 50%;
+  text-align: center;
+}
+
+main #sobre .info h1 {
+  margin-top: 200px;
+  margin-left: 50px;
+  text-shadow: 3px 3px 5px rgb(42, 41, 41);
+  letter-spacing: 10px;
+}
+
+main #sobre .info p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+main #sobre .imagemMinha {
+  width: 100vh;
+  text-align: center;
+}
+
+main #sobre .imagemMinha img {
+  height: 500px;
+  margin-top: 150px;
+  border-radius: 300px;
+}
+
+main #projetos {
+  padding-top: 100px;
+  height: 100vh;
+}
+
+main #contatos {
+  padding-top: 100px;
+  height: 100vh;
+}
