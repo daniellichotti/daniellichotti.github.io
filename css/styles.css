@@ -96,7 +96,7 @@ main {
 
 main #sobre {
   padding-top: 100px;
-  height: 100vh;
+  height: max-content;
   display: flex;
   margin-bottom: 20px;
 }
@@ -122,14 +122,14 @@ main #sobre .info p {
 }
 
 main #sobre .imagemMinha {
-  width: 100vh;
+  width: 50%;
   text-align: center;
+  margin: auto;
+  display: block;
 }
 
 main #sobre .imagemMinha img {
   height: 500px;
-  margin-top: 150px;
-  margin-right: 300px;
   border-radius: 300px;
 }
 
@@ -140,7 +140,8 @@ main #sobre .imagemMinha img:hover {
 
 main #projetos {
   padding-top: 100px;
-  height: 100vh;
+
+  height: max-content;
   border-top: 1px solid black;
   display: flex;
   flex-flow: row wrap;
@@ -154,6 +155,7 @@ main #projetos {
   height: 400px;
   perspective: 1000px;
   color: white;
+  margin: 10px;
 }
 
 .flip-card-inner {
@@ -194,6 +196,7 @@ main #contatos {
 
 footer {
   height: 100px;
+  max-height: max-content;
   background-image: linear-gradient(90deg, #242424, black);
   display: flex;
   flex-flow: row wrap;
@@ -207,9 +210,9 @@ footer p {
 }
 
 footer #links {
-  flex: 90%;
+  flex: 80%;
   text-align: center;
-  margin-left: 50px;
+  margin-left: 10%;
 }
 
 footer #links a img {
@@ -220,6 +223,10 @@ footer #links a img {
 footer a img {
   height: 50px;
   margin-left: auto;
-  flex: 10%;
   margin: 10px;
+}
+
+#teste {
+  text-align: end;
+  flex: 10%;
 }
