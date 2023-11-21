@@ -179,14 +179,18 @@ main #projetos {
   backface-visibility: hidden;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
   border-radius: 14px;
   background-color: #121212;
 }
 
+.flip-card-front {
+  background: rgba(0, 0, 0, 0.3);
+}
+
 .flip-card-back {
   transform: rotateY(180deg);
+  justify-content: center;
 }
 
 main #contatos {
